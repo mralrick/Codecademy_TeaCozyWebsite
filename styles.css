@@ -1,0 +1,192 @@
+*
+{
+  /* reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html
+{
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+  color: seashell;
+  background-color: black;
+}
+
+p
+{
+  margin: 10px;
+}
+
+.blank-space
+{
+  width: 100%;
+  height: 50px;
+}
+
+header
+{
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+}
+
+#header-logo
+{
+  height: 50px;
+  width: 157px;  /* spitballing based on scaling... */
+  background-image: url(images/img-tea-cozy-logo.png);
+  background-size: cover;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link
+{
+  text-decoration: underline;
+}
+
+main
+{
+  position: relative;
+  top: 70px;
+}
+
+main section
+{
+  margin: 0 auto;
+}
+
+#mission-container
+{
+  width: 1200px;
+  height: 700px;
+  background-image: url(images/img-mission-background.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#mission-text
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+#featured-container
+{
+  width: 1050px;
+  height: 679px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#featured-text
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#featured-item-grid
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-item
+{
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.featured-item-image
+{
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+/* featured item images */
+#image-fall-berry { background-image: url(images/img-berryblitz.jpg); }
+#image-spiced-rum { background-image: url(images/img-spiced-rum.jpg); }
+#image-seasonal-donuts { background-image: url(images/img-donut.jpg); }
+#image-myrtle-ave { background-image: url(images/img-myrtle-ave.jpg); }
+#image-bedford-bizarre { background-image: url(images/img-bedford-bizarre.jpg); }
+
+#locations-container
+{
+  width: 1200px;
+  height: 500px;
+  background-image: url(images/img-locations-background.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#locations-text
+{
+  width: 100%;
+  height: 63px;
+  position: relative;
+  top: 51px;
+}
+
+#location-grid
+{
+  width: 980px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.location
+{
+  width: 300px;
+  height: 300px;
+  opacity: 1.0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+}
+
+#contact-container
+{
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer
+{
+  text-align: left;
+  padding: 20px;
+}
